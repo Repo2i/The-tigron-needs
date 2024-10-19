@@ -1,38 +1,3 @@
---// SETTINGS \\ --
-Configuration = {}
-Configuration.ReturnOnDeath = true
-Configuration.Flinging = true
-Configuration.PresetFling = false
-Configuration.Animations = true
-Configuration.WaitTime = 0.304
-Configuration.RigName = "Character"
-Configuration.TeleportOffsetRadius = 4
-Configuration.NoCollisions = true
-Configuration.AntiVoiding = true
-Configuration.SetSimulationRadius = true
-Configuration.DisableCharacterScripts = true
-Configuration.Hats = {
-	    ["Right Leg"] = {
-        {Texture = "17387586304", Mesh = "17387586286", Name = "Accessory (rightleg)", Offset = CFrame.Angles(0, 0, math.rad(90))}
-    },
-
-    ["Left Leg"] = {
-        {Texture = "17387586304", Mesh = "17387586286", Name = "Accessory (LLeg)", Offset = CFrame.Angles(0, 0, math.rad(90))}
-    },    
-
-["Right Arm"] = {
-        {Texture = "14768683674", Mesh = "14768684979", Name = "RARM", Offset = CFrame.Angles(0, 0, math.rad(90))}
-    },
-
-    ["Left Arm"] = {
-        {Texture = "14768683674", Mesh = "14768684979", Name = "LARM", Offset = CFrame.Angles(0, 0, math.rad(90))}
-    },    
-
-    ["Torso"] = {
-        {Texture = "14768664565", Mesh = "14768666349", Name = "Black", Offset = CFrame.identity}
-    },
-}
-local Module = game:HttpGet("https://raw.githubusercontent.com/KadeTheExploiter/Krypton/main/Module.luau")
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KadeTheExploiter/Uncategorized-Scripts/main/LoadLib.lua"))()
 
